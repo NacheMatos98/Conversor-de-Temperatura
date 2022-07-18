@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: linear-gradient(120deg, #c4dbdf, #175792);
+    height: 100vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    background: rgba(255, 255, 255, 0.199);
+    box-shadow: 0 8px 32px 0 rgba(63, 76, 220, 0.37);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    color: #fff;
+    font-weight: bold;
+    font-size: 19px;
+    height: 20%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.cel1{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.199);
+    box-shadow: 0 8px 32px 0 rgba(63, 76, 220, 0.37);
+    border-radius: 5px;
+}
+
+.fah1{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.199);
+    box-shadow: 0 8px 32px 0 rgba(63, 76, 220, 0.37);
+}
+
+.kel1{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.199);
+    box-shadow: 0 8px 32px 0 rgba(63, 76, 220, 0.37);
+}
+
+.posi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 45%;
+    width: 100%;
+}
+
+.posi p{
+    font-size: 35px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.posi input{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-weight: bold;
+    width: 70%;
+    height: 30%;
+    border-radius: 5px;
+    border: 1px solid rgb(17, 84, 198);
+}
+
+.botoes{
+    height: 35%;
+    width: 100%;
+}
+
+.botoes button{
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 40%;
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.199);
+    box-shadow: 0 8px 32px 0 rgba(63, 76, 220, 0.37);
+    border: none;
+}
+
+.botoes button:hover{
+    background: rgba(255, 255, 255, 0.199);
+    box-shadow: 10px 8px 2px 0 rgba(63, 76, 220, 0.37);
+    
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+@media screen and (max-width: 1150px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        width: 40%;
+        height: auto;
+    }
+
+    .posi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }  
+
+    .cel1{
+        height: 150px;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .fah1{
+        height: 150px;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .kel1{
+        height: 150px;
+        width: 80%;
+    }
+
+    .botoes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button{
+        height: 250px;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+    
+
+    
+}
+
+
+

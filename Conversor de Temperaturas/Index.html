@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERSOR DE ESCALAS TERMOMÉTRICAS</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <header>
+            <h1 class="title1">Conversor de Escalas Termométricas</h1>
+        </header>
+
+        <div class="posi">
+
+            <div class="cel1">
+                <p>ºC</p>
+                <input type="number" class="inp" placeholder="0" id="cel2" onclick="seleciona1()">
+            </div>
+
+            <div class="fah1">
+                <p>ºF</p>
+                <input type="number" class="inp" placeholder="0" id="fah2" onclick="seleciona2()">
+            </div>
+
+            <div class="kel1">
+                <p>k</p>
+                <input type="number" class="inp" placeholder="0" id="kel2" onclick="seleciona3()">
+            </div>
+        </div>
+
+        <div class="botoes">
+            <button onclick="limpar()">Limpar</button>
+        </div>
+    </div>
+    <script src="./assets/js/temper.js"></script>
+</body>
+</html>
